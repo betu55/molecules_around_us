@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-xl font-bold">
+      <div>Hello this is my new react app.</div>
+      <div className="border">
+        <iframe
+          title="3D-Model"
+          src="https://app.vectary.com/p/2EpMpaVJAEmMqlZH127ydQ"
+          frameborder="0"
+          width="100%"
+          height="480"
+        ></iframe>
+      </div>
     </div>
   );
 }
