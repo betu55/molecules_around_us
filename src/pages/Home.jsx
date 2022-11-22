@@ -13,7 +13,7 @@ export function Home() {
         <source src={bgVid} />
       </video>
       <div className="h-full w-full lg:grid grid-rows-8">
-        <div className="content mx-4 md:mx-20 pt-10 row-span-6 ">
+        <div className="content mx-4 md:mx-16 pt-10 row-span-6 ">
           <div className="text-4xl text-slate-300 text-center md:text-left md:text-5xl ">
             <a
               href="/"
@@ -31,19 +31,19 @@ export function Home() {
             This is a simple web based experience of the chemical compound
             commercialy known as D-Mannitol.
           </div>
-          <div className="visible lg:invisible text-slate-300 text-left md:text-left md:text-lg my-6">
+          <div className="visible lg:invisible text-slate-300 text-justify md:text-left md:text-lg my-6">
             For a better experience it is reccomended that you visit this
             website from a larger device, preferably a{" "}
             <p className="inline font-bold">laptop</p> or a{" "}
             <p className="inline font-bold">desktop </p>
             computer.
-            <p className="my-6">
+            <p className="my-6 text-justify">
               It is also possible to proceed with curtrent setup.
             </p>
           </div>
         </div>
-        <div className="content lg:mt-10 mx-4 md:mx-20 row-span-2">
-          <p className="text-slate-300 md:text-lg text-left md:text-left ">
+        <div className="content lg:mt-10 mx-4 md:mx-16 row-span-2">
+          <p className="text-slate-300 md:text-lg text-justify md:text-left md:text-normal hidden md:block">
             And this is the second row
           </p>
         </div>
