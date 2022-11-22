@@ -13,7 +13,7 @@ export function Home() {
         <source src={bgVid} />
       </video>
       <div className="h-full w-full lg:grid grid-rows-8">
-        <div className="content mx-8 md:mx-20 pt-10 row-span-6 ">
+        <div className="content mx-4 md:mx-20 pt-10 row-span-6 ">
           <div className="text-4xl text-slate-300 text-center md:text-left md:text-5xl ">
             <a
               href="/"
@@ -42,7 +42,7 @@ export function Home() {
             </p>
           </div>
         </div>
-        <div className="content lg:mt-10 md:mx-20 row-span-2">
+        <div className="content lg:mt-10 mx-4 md:mx-20 row-span-2">
           <p className="text-slate-300 md:text-lg text-left md:text-left ">
             And this is the second row
           </p>
