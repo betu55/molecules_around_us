@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+    background-color: #18181A;
+}
 #root {
     height: 100vh;
     width: 100%;
-    background-color: #18181A;
 }
 
 .video {
