@@ -33,17 +33,19 @@ export function Home() {
             commercialy known as D-Mannitol.
           </div>
           <div className="visible lg:invisible text my-6">
+            <div className="mb-1 text-center md:text-left">⚠️ Disclaimer</div>
             For a better experience it is reccomended that you visit this
             website from a larger device, preferably a{" "}
             <p className="inline font-bold">laptop</p> or a{" "}
             <p className="inline font-bold">desktop </p>
-            computer.
+            computer. And a resolution of more than 1024 pixels in width.
             <p className="my-6 text-justify">
-              It is also possible to proceed with curtrent setup.
+              But since this website was designed for responsiveness across most
+              devices, it is also possible to proceed with curtrent setup.
             </p>
           </div>
         </div>
-        <div className="content lg:mt-10 mt-14 md:mx-16 row-span-2 text-center md:text-left lg:text-right">
+        <div className="content lg:mt-10 mt-14 md:mx-12 row-span-2 text-center md:text-left lg:text-right">
           <a href="/content" className="button">
             Start>>>
           </a>

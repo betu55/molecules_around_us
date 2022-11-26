@@ -48,3 +48,7 @@
 .text{
   @apply text-slate-300 text-justify md:text-left md:text-lg
 }
+
+.text2{
+  @apply text-slate-300 md:text-left md:text-lg text-base lg:ml-8
+}
