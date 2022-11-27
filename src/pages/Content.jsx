@@ -74,7 +74,7 @@ export function Content() {
             )}
           </div>
         </div>
-        <div className="row-span-1 lg:row-span-1 text-2xl text-gray-400 md:text-left mt-4 md:mt-16">
+        <div className="row-span-1 lg:row-span-1 text-2xl text-gray-400 md:text-left mt-12 md:mt-28">
           Physical Description
           <div className="text2 mt-4">
             <div className="inline text-red-400">{icon} </div>
@@ -99,19 +99,19 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="mx-4 md:mx-12 mt-4 md:mt-16">
+      <div className="mx-4 md:mx-12 mt-12 md:mt-28">
         <div className="mt-4">
           <div className="text-2xl text-gray-400 mb-8">Structural Formula:</div>
           <div className="mt-4 lg:ml-8">
             <img
               src={img}
               alt="Structural formula"
-              className=" w-2/3 lg:w-3/5 xl:w-1/2"
+              className=" w-full md:w-5/6 lg:w-3/5 xl:w-1/2"
             />
           </div>
         </div>
       </div>
-      <div className="text2 mx-4 md:mx-12 mt-4 md:mt-16">
+      <div className="text2 mx-4 md:mx-12 mt-12 md:mt-28">
         <div className="text-2xl text-gray-400">Computed Properties</div>
         <div className="mt-4 lg:ml-8">
           {info("Molecular Weight", "182.17")}
@@ -123,7 +123,7 @@ export function Content() {
           {info("Formal Charge", "0")}
         </div>
       </div>
-      <div className="content mx-4 md:mx-12 mt-4 md:mt-16 pb-8">
+      <div className="content mx-4 md:mx-12 mt-12 md:mt-28 pb-8">
         <div className="mt-4">
           <div className="text-2xl text-gray-400">Medical Information</div>
           <div className="mt-4 lg:ml-8 text2">
@@ -146,7 +146,7 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="mx-4 md:mx-12 mt-4 md:mt-16">
+      <div className="mx-4 md:mx-12 mt-12 md:mt-28">
         <div className="text-2xl text-gray-400">Toxicity:</div>
         <div className="text2 mt-4 lg:ml-8">
           <div className="inline text-red-400">{icon} </div>
@@ -181,7 +181,7 @@ export function Content() {
           THUS THE RISK OF POSTOPERATIVE BLEEDING IN NEUROSURGICAL PATIENTS.
         </div>
       </div>
-      <div className="content mx-4 md:mx-12 mt-4 md:mt-12 pb-16">
+      <div className="content mx-4 md:mx-12 mt-12 md:mt-28 pb-16">
         <div className="text-2xl text-gray-400">Sources:</div>
         <div className="text2">
           Sources for all the information provided.
