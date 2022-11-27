@@ -32,7 +32,7 @@ export function Home() {
             This is a simple web based experience of the chemical compound
             commercialy known as D-Mannitol.
           </div>
-          <div className="visible lg:invisible text my-6">
+          <div className="visible lg:invisible text my-6 text-justify">
             <div className="mb-1 text-center md:text-left">⚠️ Disclaimer</div>
             For a better experience it is reccomended that you visit this
             website from a larger device, preferably a{" "}
