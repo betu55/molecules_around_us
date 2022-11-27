@@ -2,15 +2,15 @@ import img from "../Assets/Images/formula1.png";
 let main_paragraph =
   "Mannitol is an osmotic diuretic that is metabolically inert in humans and occurs naturally, as a sugar or sugar alcohol, in fruits and vegetables. Mannitol elevates blood plasma osmolality, resulting in enhanced flow of water from tissues, including the brain and cerebrospinal fluid, into interstitial fluid and plasma.";
 
-let icon = "•";
+let icon = "-";
 
 const info = (key, val) => {
   return (
-    <div className="grid grid-cols-3 lg:grid-cols-2 content-between">
-      <div className="inline col-span-2 lg:col-span-1 border border-gray-700 pl-2 py-1">
+    <div className="grid grid-cols-7 lg:grid-cols-2 content-between">
+      <div className="inline col-span-3 lg:col-span-3 pl-2 py-1 md:py-0 border border-gray-500 md:border-none">
         {key}:{" "}
       </div>
-      <p className="text-red-400 inline border border-gray-700 pl-2 py-1">
+      <p className="text-red-400 col-span-4 lg:col-span-4 inline pl-2 py-1 md:py-0 md:pb-2 border border-gray-500 md:border-none">
         {val}
       </p>
     </div>
@@ -20,8 +20,8 @@ const info = (key, val) => {
 export function Content() {
   return (
     <div className="font-mono h-full w-full">
-      <div className="content mx-8 md:mx-12 pt-10 row-span-6 ">
-        <div className="text-4xl text-gray-200 text-center md:text-left md:text-5xl ">
+      <div className="content mx-4 md:mx-12 pt-10 row-span-6 ">
+        <div className="text-4xl text-gray-400 text-center md:text-left md:text-5xl ">
           <a
             href="/"
             className="font-bold hover:text-red-600 hover:animate-pulse"
@@ -30,20 +30,20 @@ export function Content() {
           </a>
         </div>
         <div>
-          <p className="my-1 text-gray-200 text-xl md:text-2xl text-center md:text-left">
+          <p className="my-1 text-gray-400 text-xl md:text-2xl text-center md:text-left">
             C<sub>6</sub>H<sub>14</sub>O<sub>6</sub>
           </p>
         </div>
       </div>
-      <div className="block 2xl:hidden 2xl:row-span-1 text mt-6 mx-8 md:mx-12">
+      <div className="block 2xl:hidden 2xl:row-span-1 text mt-6 mx-4 md:mx-12">
         {main_paragraph}
       </div>
-      <div className="h-full grid grid-rows-7 2xl:grid-rows-5 content mx-8 md:mx-12">
-        <div className="row-span-5 lg:row-span-3 text grid grid lg:grid-cols-11  mt-8 ">
+      <div className="h-fit grid grid-rows-9 2xl:grid-rows-5 mx-4 md:mx-12">
+        <div className="row-span-8 lg:row-span-5 text grid grid lg:grid-cols-11 mt-8">
           <div className="hidden 2xl:block 2xl:col-span-2 mr-6">
             {main_paragraph}
           </div>
-          <div className="row-span-6 lg-row-span-2 lg:col-span-7 md:w-5/6 lg:w-full border-2 border-slate-400">
+          <div className="h-96 lg:h-full w-full col-span-9 row-span-7 lg:row-span-4 lg:col-span-7 md:w-5/6 lg:w-full border-2 border-slate-400">
             <iframe
               src="https://app.vectary.com/p/2EpMpaVJAEmMqlZH127ydQ"
               frameborder="0"
@@ -52,7 +52,7 @@ export function Content() {
               title="3D-Model"
             ></iframe>
           </div>
-          <div className="h-fit lg:col-span-4 2xl:col-span-2 lg:ml-6 lg:mt-0 mt-4">
+          <div className="h-fit row-span-1 lg:col-span-4 lg:row-span-1 2xl:col-span-2 lg:ml-6 lg:mt-0 mt-4">
             {info("IUPAC Name", "(2R,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol")}
             {info("CAS Number", "69-65-8")}
             {info("Cost for 100g", "CA$34.40")}
@@ -74,7 +74,7 @@ export function Content() {
             )}
           </div>
         </div>
-        <div className="lg:row-span-1 text-2xl text-gray-200 text-justify md:text-left md:mt-16">
+        <div className="row-span-1 lg:row-span-1 text-2xl text-gray-400 text-justify md:text-left mt-4 md:mt-16">
           Physical Description
           <div className="text2 mt-4">
             <div className="inline text-red-400">{icon} </div>
@@ -99,20 +99,20 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="content mx-8 md:mx-12">
+      <div className="mx-4 md:mx-12 mt-4 md:mt-16">
         <div className="mt-4">
-          <div className="text-2xl text-gray-200">Structural Formula:</div>
+          <div className="text-2xl text-gray-400 mb-8">Structural Formula:</div>
           <div className="mt-4 lg:ml-8">
             <img
               src={img}
               alt="Structural formula"
-              className="bg-white w-2/3 lg:w-3/5 xl:w-1/3"
+              className=" w-2/3 lg:w-3/5 xl:w-1/2"
             />
           </div>
         </div>
       </div>
-      <div className="content text2 mx-8 md:mx-12 mt-16 pb-8">
-        <div className="text-2xl text-gray-200">Computed Properties</div>
+      <div className="text2 mx-4 md:mx-12 mt-4 md:mt-16">
+        <div className="text-2xl text-gray-400">Computed Properties</div>
         <div className="mt-4 lg:ml-8">
           {info("Molecular Weight", "182.17")}
           {info("Hydrogen Bond Donor Count", "6")}
@@ -123,9 +123,9 @@ export function Content() {
           {info("Formal Charge", "0")}
         </div>
       </div>
-      <div className="content mx-8 md:mx-12 mt-16 pb-8">
+      <div className="content mx-4 md:mx-12 mt-4 md:mt-16 pb-8">
         <div className="mt-4">
-          <div className="text-2xl text-gray-200">Medical Information</div>
+          <div className="text-2xl text-gray-400">Medical Information</div>
           <div className="mt-4 lg:ml-8 text2">
             <div className="inline text-red-400">{icon} </div>
             It is used to decrease pressure in the eyes, as in glaucoma, and to
@@ -146,16 +146,51 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="content mx-8 md:mx-12 mt-8 pb-8">
-        <div className="text-2xl text-gray-200">Sources:</div>
+      <div className="mx-4 md:mx-12 mt-4 md:mt-16">
+        <div className="text-2xl text-gray-400">Toxicity:</div>
+        <div className="text2 mt-4 lg:ml-8">
+          <div className="inline text-red-400">{icon} </div>
+          Mannitol overdose may result in bronchoconstriction and should be
+          counteracted using a short-acting bronchodilator and other symptomatic
+          and supportive care, as necessary.
+        </div>
+        <div className="text2 mt-4 lg:ml-8">
+          <div className="inline text-red-400">{icon} </div>
+          DEHYDRATION, & MASSIVE DIURESIS ARE COMMON UNTOWARD EFFECTS OF
+          MANNITOL. ... OCCASIONALLY CAUSED AGITATION, DISORIENTATION, &
+          CONVULSIONS. LARGE DOSES MAY CAUSE ACUTE INCREASE IN INTRAVASCULAR
+          VOL, RESULTING IN CONGESTIVE HEART FAILURE OR INTRACRANIAL HEMORRHAGE.
+        </div>
+        <div className="text2 mt-4 lg:ml-8">
+          <div className="inline text-red-400">{icon} </div>
+          Masking or worsening dehydration as it causes diuresis
+        </div>
+        <div className="text2 mt-4 lg:ml-8">
+          <div className="inline text-red-400">{icon} </div>
+          HEADACHE, NAUSEA, VOMITING, CHILLS, DIZZINESS, POLYDIPSIA, LETHARGY,
+          CONFUSION, & SENSATION OF CONSTRICTION OR PAIN IN CHEST HAVE BEEN
+          OBSERVED FOLLOWING INFUSION OF MANNITOL. FATALITIES HAVE OCCURRED
+          AFTER LARGE DOSES.
+        </div>
+        <div className="text2 mt-4 lg:ml-8">
+          <div className="inline text-red-400">{icon} </div>
+          TOO RAPID ADMIN OF LARGE AMT WILL DRAW INTRACELLULAR WATER INTO
+          EXTRACELLULAR SPACE, CAUSING CELLULAR DEHYDRATION & OVEREXPANSION OF
+          INTRAVASCULAR SPACE WITH CONGESTIVE HEART FAILURE & PULMONARY EDEMA.
+          HYPONATREMIA IS A COMMON PROBLEM. ...MAY INCR CEREBRAL BLOOD FLOW &
+          THUS THE RISK OF POSTOPERATIVE BLEEDING IN NEUROSURGICAL PATIENTS.
+        </div>
+      </div>
+      <div className="content mx-4 md:mx-12 mt-4 md:mt-12 pb-16">
+        <div className="text-2xl text-gray-400">Sources:</div>
         <div className="text2">
-          These are the different websites from which information was gathered
+          Sources for all the information provided.
           <br /> <br />
           <div>
             1.<> </>
             <a
               href="https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16899#:~:text=As%20a%20medication%2C%20it%20is,last%20up%20to%208%20hours."
-              className="italic hover:text-red-400"
+              className="italic hover:text-red-400 underline"
               target="_"
             >
               ChEBI
@@ -165,7 +200,7 @@ export function Content() {
             2.<> </>
             <a
               href="https://pubchem.ncbi.nlm.nih.gov/compound/6251#section=Names-and-Identifiers"
-              className="italic hover:text-red-400"
+              className="italic hover:text-red-400 underline"
               target="_"
             >
               PubChem
@@ -175,13 +210,16 @@ export function Content() {
             3.<> </>
             <a
               href="https://www.sigmaaldrich.com/CA/en/search/d-mannitol?focus=products&page=1&perpage=30&sort=relevance&term=d-mannitol&type=product"
-              className="italic hover:text-red-400"
+              className="italic hover:text-red-400 underline"
               target="_"
             >
               Millipore Sigma
             </a>
           </div>
         </div>
+      </div>
+      <div className="text2 mt-16 pb-1">
+        <div className="text-lg text-red-400 text-center">thank You🙂</div>
       </div>
     </div>
   );

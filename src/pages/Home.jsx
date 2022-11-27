@@ -14,8 +14,8 @@ export function Home() {
         <source src={bgVid} />
       </video>
       <div className="h-full w-full lg:grid grid-rows-8">
-        <div className="content mx-8 md:mx-12 pt-10 row-span-6 ">
-          <div className="text-4xl text-gray-200 text-center md:text-left md:text-5xl ">
+        <div className="content mx-4 md:mx-12 pt-10 row-span-6 ">
+          <div className="text-4xl text-gray-400 text-center md:text-left md:text-5xl ">
             <a
               href="/"
               className="font-bold hover:text-red-600 hover:animate-pulse"
@@ -24,11 +24,11 @@ export function Home() {
             </a>
           </div>
           <div>
-            <p className="my-1 text-gray-200 text-lg md:text-xl text-center md:text-left">
+            <p className="my-1 text-gray-400 text-lg md:text-xl text-center md:text-left">
               Welcome to the site!
             </p>
           </div>
-          <div className="mt-4 hidden lg:block text-gray-200 md:text-lg text-center md:text-left">
+          <div className="mt-4 hidden lg:block text-gray-400 md:text-lg text-center md:text-left">
             This is a simple web based experience of the chemical compound
             commercialy known as D-Mannitol.
           </div>
