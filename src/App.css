@@ -42,13 +42,13 @@
 }
 
 .button{
-  @apply px-14 md:px-20 lg:px-24 border-2 border-slate-400 text-center py-2 lg:py-2 rounded-xl text-slate-300 text-base md:text-lg hover:bg-slate-400 hover:text-gray-800 hover:font-bold animate-pulse
+  @apply px-14 md:px-20 lg:px-24 border-2 border-gray-200 text-center py-2 lg:py-2 rounded-xl text-slate-300 text-base md:text-lg hover:bg-slate-400 hover:text-gray-800 hover:font-bold animate-pulse
 }
 
 .text{
-  @apply text-slate-300 text-justify md:text-left md:text-lg
+  @apply text-gray-200 text-justify md:text-left md:text-lg
 }
 
 .text2{
-  @apply text-slate-300 md:text-left md:text-lg text-base lg:ml-8
+  @apply text-gray-200 md:text-left md:text-lg text-base lg:ml-8
 }
