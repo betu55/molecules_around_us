@@ -46,7 +46,7 @@
 }
 
 .text{
-  @apply text-gray-400 text-justify md:text-left md:text-lg
+  @apply text-gray-400 md:text-left md:text-lg
 }
 
 .text2{

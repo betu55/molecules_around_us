@@ -74,7 +74,7 @@ export function Content() {
             )}
           </div>
         </div>
-        <div className="row-span-1 lg:row-span-1 text-2xl text-gray-400 text-justify md:text-left mt-4 md:mt-16">
+        <div className="row-span-1 lg:row-span-1 text-2xl text-gray-400 md:text-left mt-4 md:mt-16">
           Physical Description
           <div className="text2 mt-4">
             <div className="inline text-red-400">{icon} </div>
