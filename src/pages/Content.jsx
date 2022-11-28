@@ -6,11 +6,11 @@ let icon = "-";
 
 const info = (key, val) => {
   return (
-    <div className="grid grid-cols-7 lg:grid-cols-2 content-between">
-      <div className="inline col-span-3 lg:col-span-3 pl-2 py-1 md:py-0 border border-gray-500 md:border-none">
+    <div className="grid grid-cols-7 lg:grid-cols-7 content-between py-1">
+      <div className="inline col-span-3 lg:col-span-3 pl-2 py-1 md:py-0 border border-gray-600 md:border-none">
         {key}:{" "}
       </div>
-      <p className="text-red-400 col-span-4 lg:col-span-4 inline pl-2 py-1 md:py-0 md:pb-2 border border-gray-500 md:border-none">
+      <p className="text-red-400 col-span-4 lg:col-span-4 inline pl-2 py-1 md:py-0 md:pb-2 border border-gray-600 md:border-none">
         {val}
       </p>
     </div>
@@ -43,7 +43,7 @@ export function Content() {
           <div className="hidden 2xl:block 2xl:col-span-2 mr-6">
             {main_paragraph}
           </div>
-          <div className="h-96 lg:h-full w-full col-span-9 row-span-7 lg:row-span-4 lg:col-span-7 md:w-5/6 lg:w-full border-2 border-slate-400">
+          <div className="h-96 lg:h-full w-full col-span-9 row-span-7 lg:row-span-4 lg:col-span-7 md:w-5/6 lg:w-full border-2 border-gray-600">
             <iframe
               src="https://app.vectary.com/p/2EpMpaVJAEmMqlZH127ydQ"
               frameborder="0"
