@@ -20,7 +20,7 @@ const info = (key, val) => {
 export function Content() {
   return (
     <div className="font-mono h-full w-full">
-      <div className="content mx-4 md:mx-12 pt-10 row-span-6 ">
+      <div className="content mx-6 md:mx-12 pt-10 row-span-6 ">
         <div className="text-4xl text-gray-400 text-center md:text-left md:text-5xl ">
           <a
             href="/"
@@ -35,10 +35,10 @@ export function Content() {
           </p>
         </div>
       </div>
-      <div className="block 2xl:hidden 2xl:row-span-1 text mt-6 mx-4 md:mx-12">
+      <div className="block 2xl:hidden 2xl:row-span-1 text mt-6 mx-6 md:mx-12">
         {main_paragraph}
       </div>
-      <div className="h-fit grid grid-rows-9 2xl:grid-rows-5 mx-4 md:mx-12">
+      <div className="h-fit grid grid-rows-9 2xl:grid-rows-5 mx-6 md:mx-12">
         <div className="row-span-8 lg:row-span-5 text grid grid lg:grid-cols-11 mt-8">
           <div className="hidden 2xl:block 2xl:col-span-2 mr-6">
             {main_paragraph}
@@ -99,7 +99,7 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="mx-4 md:mx-12 mt-12 md:mt-28">
+      <div className="mx-6 md:mx-12 mt-12 md:mt-28">
         <div className="mt-4">
           <div className="text-2xl text-gray-400 mb-8">Structural Formula:</div>
           <div className="mt-4 lg:ml-8">
@@ -111,7 +111,7 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="text2 mx-4 md:mx-12 mt-12 md:mt-28">
+      <div className="text2 mx-6 md:mx-12 mt-12 md:mt-28">
         <div className="text-2xl text-gray-400">Computed Properties</div>
         <div className="mt-4 lg:ml-8">
           {info("Molecular Weight", "182.17")}
@@ -123,7 +123,7 @@ export function Content() {
           {info("Formal Charge", "0")}
         </div>
       </div>
-      <div className="content mx-4 md:mx-12 mt-12 md:mt-28 pb-8">
+      <div className="content mx-6 md:mx-12 mt-12 md:mt-28 pb-2">
         <div className="mt-4">
           <div className="text-2xl text-gray-400">Medical Information</div>
           <div className="mt-4 lg:ml-8 text2">
@@ -146,7 +146,7 @@ export function Content() {
           </div>
         </div>
       </div>
-      <div className="mx-4 md:mx-12 mt-12 md:mt-28">
+      <div className="mx-6 md:mx-12 mt-12 md:mt-28">
         <div className="text-2xl text-gray-400">Toxicity:</div>
         <div className="text2 mt-4 lg:ml-8">
           <div className="inline text-red-400">{icon} </div>
@@ -181,7 +181,7 @@ export function Content() {
           THUS THE RISK OF POSTOPERATIVE BLEEDING IN NEUROSURGICAL PATIENTS.
         </div>
       </div>
-      <div className="content mx-4 md:mx-12 mt-12 md:mt-28 pb-16">
+      <div className="content mx-6 md:mx-12 mt-12 md:mt-28 pb-16">
         <div className="text-2xl text-gray-400">Sources:</div>
         <div className="text2">
           Sources for all the information provided.
